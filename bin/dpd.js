@@ -22,7 +22,8 @@ cli.program
   .option('-u, --username <username>', 'The user to authenticate as')
   .option('-s, --password <password>', 'The user\'s password')
   .option('-c, --dbconn <dbconnectionstring>', 'The MongoDB Connection String')
-  .option('    --deploydPath [deploydPath]', 'allow overriding the path to deployd main script');
+  .option('    --deploydPath [deploydPath]', 'allow overriding the path to deployd main script')
+  .option('    --publicDir [publicDir]', 'public directory  (defaults to `public`)');
 
 
 cli.program
